@@ -37,3 +37,7 @@ def decode_word(word)
   print ' '
 end
 
+def decode_message(msg)
+  msg.split.each { |word| decode_word(word) }
+  print ' '
+end
