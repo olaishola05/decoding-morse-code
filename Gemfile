@@ -1,8 +1,6 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-
-git_source(:github) {|decoding| "https://github.com/#{netman5/decoding-morse-code}" }
+git_source(:github) { |decoding| "https://github.com/#{(netman5 / decoding) - morse - code}" }
 
 # gem "rails"
 
